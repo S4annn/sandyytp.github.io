@@ -11,7 +11,6 @@ body {
   font-family: "poppins", sans-serif;
 }
 
-
 @keyframes slideDown {
   from {
     transform: translateY(-30px);
@@ -23,7 +22,6 @@ body {
   }
 }
 
-
 .container,
 #taskForm,
 #taskTable,
@@ -31,8 +29,8 @@ h1,
 #clearBtn,
 #btn {
   animation: slideDown 1s ease-in-out forwards;
-  opacity: 0; 
-  transform: translateY(-30px); 
+  opacity: 0;
+  transform: translateY(-30px);
 }
 
 .container {
@@ -149,10 +147,10 @@ h1 {
   position: relative;
   font-size: 15px;
   font-family: poppins;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .animate {
-  opacity: 1; 
-  transform: translateY(0); 
+  opacity: 1;
+  transform: translateY(0);
 }
