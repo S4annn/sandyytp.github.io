@@ -14,8 +14,16 @@
             <p>Increase your productivity here.</p>
             <form id="taskForm">
                 <input type="text" id="taskInput" placeholder="Add a task..." required>
-                <button id="btn" type="submit"><i class="ri-add-circle-line"></i></button><span id="add">ADD</span>
-                <button id="clearBtn" type="button"><i class="ri-close-circle-line"></i></button><span id="clear">CLEAR ALL</span>
+                <div class="button-group">
+                    <button id="btn" type="submit">
+                        <i class="ri-add-circle-line"></i>
+                        <span id="add">ADD</span>
+                    </button>
+                    <button id="clearBtn" type="button">
+                        <i class="ri-close-circle-line"></i>
+                        <span id="clear">CLEAR ALL</span>
+                    </button>
+                </div>
             </form>
           
             <table id="taskTable">
