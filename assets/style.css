@@ -8,7 +8,7 @@
 
 body {
   background-color: #edf2ef;
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @keyframes slideDown {
@@ -147,10 +147,38 @@ h1 {
   position: relative;
   font-size: 15px;
   font-family: poppins;
-  margin-bottom: 50px;
 }
 
 .animate {
   opacity: 1;
   transform: translateY(0);
 }
+
+@media (max-width: 768px) {
+  
+  .container {
+    width: 90%; 
+    height: auto;  
+    margin-top: 20px;  
+    padding: 10px;  
+  }
+
+  #taskInput {
+    width: 100%;  
+    height: 40px;  
+  }
+
+  h1 {
+    font-size: 20px;  /
+  }
+
+  #taskForm {
+    margin-top: 10px;
+  }
+
+  #taskTable {
+    width: 100%; 
+  }
+
+  #btn, #clearBtn {
+    font-size: 24px;  
